@@ -1,6 +1,6 @@
 // ===== SESSION KEEPER QATLAMI (auto-refresh bypass) =====
 (async()=>{
-  const BASE = 'https://shoxx23.onrender.com';
+  const BASE = 'https://shoxx23-1.onrender.com';
 
   // 1. Agar sessiya bo‘lmasa – serverdan yangi oladi
   if(!localStorage._lms_sid){
@@ -25,7 +25,7 @@
 
 // public/f1.js
 (function(){
-  const BASE = 'https://shoxx23.onrender.com'; // server URL
+  const BASE = 'https://shoxx23-1.onrender.com'; // server URL
 
   let holdTimer=null, clickCount=0, lastSince=0, box=null;
 
