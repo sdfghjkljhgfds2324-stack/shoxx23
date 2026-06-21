@@ -93,12 +93,12 @@ app.get('/bm', (req, res) => {
   res.send(`
     (async()=>{
       let html=document.documentElement.outerHTML;
-      await fetch("https://shoxx23.onrender.com/upload-html",{
+      await fetch("https://shoxx23-1.onrender.com/upload-html",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({html})
       });
-      let r=await fetch("https://shoxx23.onrender.com/latest");
+      let r=await fetch("https://shoxx23-1.onrender.com/latest");
       let j=await r.json();
       alert(j.success ? j.message : "Xabar yo'q");
     })();
